@@ -1,0 +1,7 @@
+pytest>=8.0
+
+# Optional hosted LLM support (install only if using an API key):
+# langchain>=0.3
+# langchain-openai
+# langchain-google-genai
+# Optional BLIP demo: install transformers and torch separately.

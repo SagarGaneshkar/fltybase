@@ -1,0 +1,9 @@
+.venv/
+.env
+__pycache__/
+.pytest_cache/
+*.py[cod]
+*.pdf
+data/drone_security.db
+data/drone_security.db-*
+data/alerts.log
