@@ -2,6 +2,13 @@
 
 A small, offline-first prototype for replaying a docked drone's daily property patrol. It turns simulated text-described frames and telemetry into object detections, cross-frame context, rule alerts, SQLite/FTS records, and searchable question answering.
 
+## Live demo
+
+- **Dashboard:** [https://drone-security-agent-ui5a.onrender.com](https://drone-security-agent-ui5a.onrender.com)
+- **GitHub:** [https://github.com/Abhay-Ingle/droneagent](https://github.com/Abhay-Ingle/droneagent)
+
+The demo is hosted on Render's free service plan. It can take about 50 seconds to respond after inactivity, and its SQLite data may reset when the service restarts or redeploys.
+
 ## Setup
 
 Requires Python 3.10 or newer and SQLite built with FTS5 (included with standard CPython builds).
